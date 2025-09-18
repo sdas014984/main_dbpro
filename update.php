@@ -24,7 +24,7 @@ try {
   echo $sql . "<br>" . $error->getMessage();
 }
 ?>
-<?php require "templates/header.php"; ?>
+<?php require "header.php"; ?>
         
 <h2>Update users</h2>
 
@@ -60,4 +60,4 @@ try {
 
 <a href="frame_3.html" target="mid_col">Back to home</a>
 
-<?php require "templates/footer.php"; ?>
+<?php require "footer.php"; ?>

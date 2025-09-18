@@ -39,7 +39,7 @@ if (isset($_POST['Submit']))
 }
 ?>
 
-<?php require "templates/header.php"; ?>
+<?php require "header.php"; ?>
 
 <?php if (isset($_POST['submit']) && $statement) { ?>
 	<blockquote><?php echo $_POST['firstname']; ?> successfully added.</blockquote>
@@ -64,4 +64,4 @@ if (isset($_POST['Submit']))
 
 <a href="frame_3.html" target="mid_col">Back to home</a>
 <input name="csrf" type="hidden" value="<?php echo escape($_SESSION['csrf']); ?>">
-<?php require "templates/footer.php"; ?>
+<?php require "footer.php"; ?>

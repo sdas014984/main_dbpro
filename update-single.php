@@ -59,7 +59,7 @@ if (isset($_GET['id'])) {
 }
 ?>
 
-<?php require "templates/header.php"; ?>
+<?php require "header.php"; ?>
 
 <?php if (isset($_POST['submit']) && $statement) : ?>
 	<blockquote><?php echo escape($_POST['firstname']); ?> successfully updated.</blockquote>
@@ -78,4 +78,4 @@ if (isset($_GET['id'])) {
 
 <a href="frame_3" target="mid_col">Back to home</a>
 
-<?php require "templates/footer.php"; ?>
+<?php require "footer.php"; ?>
