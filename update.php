@@ -58,6 +58,6 @@ try {
     </tbody>
 </table>
 
-<a href="frame_3.html" target="mid_col">Back to home</a>
+<a href="frame_3.html" target="index">Back to home</a>
 
 <?php require "footer.php"; ?>
