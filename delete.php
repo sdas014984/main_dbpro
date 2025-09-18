@@ -77,6 +77,6 @@ try {
   </tbody>
 </table>
 
-<a href="frame_3.html" target="index">Back to home</a>
+<a href="index1.php" target="index">Back to home</a>
 
 <?php require "footer.php"; ?>

@@ -76,6 +76,6 @@ if (isset($_GET['id'])) {
     <input name="csrf" type="hidden" value="<?php echo escape($_SESSION['csrf']); ?>">
 </form>
 
-<a href="frame_3" target="index">Back to home</a>
+<a href="index1.php" target="index">Back to home</a>
 
 <?php require "footer.php"; ?>

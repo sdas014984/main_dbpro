@@ -62,6 +62,6 @@ if (isset($_POST['Submit']))
 
 </form>
 
-<a href="frame_3.html" target="index">Back to home</a>
+<a href="index1.php" target="index">Back to home</a>
 <input name="csrf" type="hidden" value="<?php echo escape($_SESSION['csrf']); ?>">
 <?php require "footer.php"; ?>

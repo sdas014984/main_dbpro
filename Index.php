@@ -4,12 +4,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=Cp1252">
 <title>Bossling</title>
 </head>
-<frameset rows="150px,*" >
-    <frame noresize src="frame_2.html" marginheight="0.0">
-    <frameset cols="20%,*,20%" >
-        <frame src="index1.php" name="index" frameborder="2" target="mid_col">
-        <frame src="frame_3.html" name="mid_col" frameborder="2" target="mid_col">
-        <frame src="frame_4.html" frameborder="2" target="mid_col">
-    </frameset>
-</frameset>
+
+Welcome to DevOps with Multi Cloud Session
+
+Enter your details
+
+
+<a href="index1.php.html" target="index">Lets Start</a><br>
+
+
 </html>

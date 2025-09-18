@@ -75,6 +75,6 @@ if (isset($_POST['submit'])) {
 	<input type="submit" name="submit" value="View Results">
 </form>
 
-<a href="frame_3.html" target="index">Back to home</a><br>
+<a href="index1.php" target="index">Back to home</a><br>
 
 <?php require "footer.php"; ?>
