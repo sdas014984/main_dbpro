@@ -1,5 +1,5 @@
 
-<?php include "templates/header.php"; ?>
+<?php include "header.php"; ?>
 
 
 <ul>
@@ -9,4 +9,4 @@
 	<li><a href="delete.php" target="mid_col"><strong>Delete</strong></a> - delete a user</li>
 </ul>
 
-<?php include "templates/footer.php"; ?>
+<?php include "footer.php"; ?>

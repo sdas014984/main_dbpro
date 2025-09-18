@@ -29,7 +29,7 @@ if (isset($_POST['submit'])) {
 	}
 }
 ?>
-<?php require "templates/header.php"; ?>
+<?php require "header.php"; ?>
 		
 <?php  
 if (isset($_POST['submit'])) {
@@ -77,4 +77,4 @@ if (isset($_POST['submit'])) {
 
 <a href="frame_3.html" target="mid_col">Back to home</a><br>
 
-<?php require "templates/footer.php"; ?>
+<?php require "footer.php"; ?>
